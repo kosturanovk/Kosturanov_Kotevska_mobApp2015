@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="horizontal"
+    android:id="@+id/menu" 
+    tools:context="com.example.mobileapp2015.MainActivity">
+
+      <Switch
+          android:id="@+id/music_toggle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="44dp"
+          android:layout_toRightOf="@+id/music_menu"
+          android:onClick="musicToggle" />
+
+      <ImageView
+          android:id="@+id/music_menu"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/startButton"
+          android:layout_alignTop="@+id/music_toggle"
+          android:layout_marginRight="37dp"
+          android:adjustViewBounds="true"
+          android:contentDescription="@string/imgDescription"
+          android:maxHeight="80dp"
+          android:maxWidth="80dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/music" />
+
+      <Button
+          android:id="@+id/startButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/quitButton"
+          android:layout_below="@+id/music_menu"
+          android:onClick="startGame"
+          android:text="@string/menu_button_start" />
+
+      <Button
+          android:id="@+id/quitButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/startButton"
+          android:layout_centerHorizontal="true"
+          android:onClick="quitGame"
+          android:text="@string/menu_button_quit" />
+
+      <Button
+          android:id="@+id/Statsbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/quitButton"
+          android:layout_centerHorizontal="true"
+          android:onClick="GameHistory"
+          android:text="@string/scores" />
+
+</RelativeLayout>

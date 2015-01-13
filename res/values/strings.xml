@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileApp2015</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Lets Play</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_board_view">BoardView</string>
+    <string name="menu_board">menu</string>
+    <string name="imgDescription">description</string>
+    <string name="menu_button_start">Start</string>
+    <string name="menu_button_quit">Quit</string>
+    <string name="menu_button">Menu</string>
+    <string name="scores">Scores</string>
+    <string name="restart">Restart</string>
+    <string name="game_history">Game History</string>
+     <string name="title_activity_stats">Game History</string>
+     <string name="title_activity_main_board">Play the Game</string>
+    
+
+</resources>
